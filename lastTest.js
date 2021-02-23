@@ -1,8 +1,4 @@
-let q1 = 'where are you from?';
-console.log(q1);
-let answer = 'I am from gion';
-console.log(answer);
-let origin = prompt("where are you from?");
-if(origin ==='Ethiopia'){
-    console.log('You are awesome!');
-}
+let x = 5;
+let y = 7;
+let z = y**2 - x**2;
+console.log(z);
