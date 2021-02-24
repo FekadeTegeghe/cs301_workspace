@@ -29,4 +29,6 @@ switch(num1){
     case 5:
         console.log("five");
 
+    //Try to do it using in_words = "";
+
 }
