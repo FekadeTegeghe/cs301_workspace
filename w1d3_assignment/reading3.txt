@@ -1,0 +1,4 @@
+Will output in reading code 2 change if value of foo is a '0' instead?
+
+Answer:
+Yes, because switch works with strict equality(===) and type "0" is string which doesn't equal to 0.
