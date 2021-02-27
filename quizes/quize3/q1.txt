@@ -1,0 +1,17 @@
+let x;
+if(x){// the value of x is null
+    let y = 5;
+}
+console.log(y);
+
+// Answer
+y is not defined error. y cannot be accessed outside of scope.
+//question 2
+let x;
+if(!x) {
+let y=5;
+}
+console.log(y);
+
+//Answer
+y is not defined in the scope of console
