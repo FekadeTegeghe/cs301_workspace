@@ -1,0 +1,3 @@
+Parameter is a place holder for possible values (arguments) that a function should be operated'
+The return value of a function with no explicit value is undefined.
+Return type of a function is dependent on the values of arguments and associated operation taken place in the function.
