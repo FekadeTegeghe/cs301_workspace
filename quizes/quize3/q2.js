@@ -1,4 +1,4 @@
-const promp = require("prompt-sync")();
+const prompt = require("prompt-sync")();
 let calendarYear = +prompt("Input calendar year: ");
 if(calendarYear %100 === 0){
     if(calendarYear%400 === 0){
