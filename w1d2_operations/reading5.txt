@@ -1,0 +1,2 @@
+In computer programming, a statement can be part of an expression. // Ans. False
+ In computer programming, an expression can be a part of a statement.  // Ans. True

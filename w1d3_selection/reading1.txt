@@ -1,0 +1,3 @@
+while using switch, if we forget the break keyword, the program proceeds executing following blocks regardless.
+For example the code in reading question 2 executes both case 0 and case 1 as there is no break after console of case 0.
+But, case 1 is not a true value for the condition foo.
