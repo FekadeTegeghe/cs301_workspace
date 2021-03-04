@@ -1,0 +1,13 @@
+YES, Function are values in JavaScript. They can be assigned, copied, or declared in any place of the
+code. 
+function func(n1, n2){    //This is example of function declaration
+    return n1 + n2;
+}
+
+let func = function(n1, n2){   //This is an example of assignment of function to a variable.
+    return n1 + n2;
+};
+
+let func = (n1, n2)=>n1 + n2;   //this is an arrow function
+
+CallBack function is a kind of function where we use one function as an argument in another.

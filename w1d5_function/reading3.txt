@@ -1,0 +1,10 @@
+I don't think that there should always be a comment to functions;
+Comments are our messages to other developers (and ourselves, 
+if we come back to our code after several months working on something else). 
+
+Comments don’t hurt anybody if we do them right. 
+If our comments end up in the code that end users see then something is not going right.
+
+ Comment when there is an important thing to say, and if you do comment use the /* */ notation. 
+ Single line comments using // can be problematic if people minify your code without 
+ stripping comments and in general are less versatile.

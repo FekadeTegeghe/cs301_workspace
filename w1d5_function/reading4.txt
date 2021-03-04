@@ -1,0 +1,3 @@
+As a rule of thumb, when we need to declare a function, the first to consider is Function Declaration syntax. 
+It gives more freedom in how to organize our code, because we can call such functions before they are declared.
+we should use a Function Expression only when a Function Declaration is not fit for the task. 
