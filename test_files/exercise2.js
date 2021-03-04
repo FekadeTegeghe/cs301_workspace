@@ -1,12 +1,13 @@
+"use strict";
 const prompt = require("prompt-sync")();
 let num;
 let area;
 while(true){
     if(!(num>0)){
-        num=prompt("Enter radius: ");
+        num= +prompt("Enter radius: ");
 
     }else{
-        area = Math.PI*num**2;
+        area = Math.PI*Math.pow(num, 2);
         break;
     }
 }

@@ -1,3 +1,4 @@
+"use strict";
 let result = 0;
 function multiply(n1, n2){
     for(let i = 0; i<n1; i++){

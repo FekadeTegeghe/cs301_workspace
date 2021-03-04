@@ -1,3 +1,8 @@
+"use strict";
+/**
+ * 
+ * @param {number} n is number to be reversed.
+ */
 function reverseDigits(n){
     let reversed = "";
     while(n>0){

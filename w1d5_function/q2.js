@@ -1,18 +1,29 @@
+"use strict";
 //a. area of a circle
 const prompt = require("prompt-sync")();
-let r = prompt('Please input radius: ');
+let rad = prompt('Please input radius: ');
 let a;
-function area(r){
-a = Math.PI*r**2;
+/**
+ * 
+ * @param {number} rad is radius of base of a cylinder
+ * @param {number} return the return value volume and area of base are numbers
+ */
+function area(rad){
+a = Math.PI*Math.pow(rad, 2);
 return a;
 }
-console.log(area(r));
+console.log(area(rad));
 console.log("-----------------");
 // b.	Cylinder – nice working code
-let h = prompt('Please input height of cylinder: ');
-let v;
-function cylinderVolume(h){
-v = area(r)*h;
-return v;
+let height = prompt("Please input height of cylinder: ");
+let volume;
+/**
+ * 
+ * @param {number} height is a numerical value representing height of cylinder
+ * @param {number} volume is the volume of the cylinder
+ */
+function cylinderVolume(height){
+volume = area(rad)*height;
+return volume;
 }
-console.log(cylinderVolume(h));
+console.log(cylinderVolume(height));
