@@ -6,7 +6,7 @@
  */
 function rotateRightByOne(arr){
     let rotated = [];
-    for(let i =0; i<=arr.length + 2; i++){
+    for(let i =0; i<=arr.length + 1; i++){
     rotated[i] = arr.pop();
     }
     return rotated;

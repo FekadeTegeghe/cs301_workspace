@@ -6,7 +6,9 @@
  */
 function rotateLeftByOne(arr){
     let rotated = [];
-    rotated = arr.reverse();
+    for(let i = 0; i < arr.length; i++){
+    rotated[i] = arr[i+1];
+    }
     
        return rotated;
     }
