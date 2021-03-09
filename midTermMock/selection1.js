@@ -1,7 +1,8 @@
-let x = 1, y = 7;
+"use strict";
+let num1 = 1, num2 = 7;
 let message = "Hi";
-if (x < 2) {
-    if (y > 7) {
+if (num1 < 2) {
+    if (num2 > 7) {
         message = "Bye";
     } else {
         message = "Hola";

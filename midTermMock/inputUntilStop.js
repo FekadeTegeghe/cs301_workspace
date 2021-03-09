@@ -1,3 +1,4 @@
+"use strict";
 const prompt = require("prompt-sync")();
 let min = 999;
 let max = 0;
@@ -21,7 +22,7 @@ do{
     }
 }
     
-}while(true);
+}while(num !== "stop");
 
 console.log(min);
 console.log(max);

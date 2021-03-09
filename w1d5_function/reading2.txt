@@ -1,6 +1,0 @@
-
-
-Factors to consider while naming functions in javaScript are:
-a. providing meaningfull and appropriate function name following conventions
-b. Avoiding generic names
-c. Avoid too short or too long function names.

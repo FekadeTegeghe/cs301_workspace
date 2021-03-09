@@ -1,3 +1,5 @@
+
+"use strict";
 for(let i=1; i<=10; i++){
     for(let j=i; j<=10; j++){
         if(j<=7){
@@ -14,8 +16,8 @@ for(let i=1; i<=10; i++){
     console.log(i);
 }
 //Answer
-8
+/*8
 9
 10
 1
-2
+2 */

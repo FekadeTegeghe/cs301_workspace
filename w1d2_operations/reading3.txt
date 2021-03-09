@@ -1,3 +1,0 @@
-The significance of +operator before prompt is to ensure conversion of string user inputs int number.
-let a = +prompt("First number?: "); //when user input the first number, it is initially string. 
-But, due to the +operator, it will be converted into number.

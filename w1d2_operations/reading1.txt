@@ -1,4 +1,0 @@
-console.log(Number(null)); //Output: 0
-console.log(Number(undefined)); //Output: NaN
-console.log(Boolean("0")); //Output: true because "0" is a string
-console.log(Boolean(" ")); //Output: true because space is a character

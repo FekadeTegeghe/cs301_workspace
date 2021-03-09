@@ -1,6 +1,0 @@
-
-
-Alternatives for default values are:
-When a function has no parameters, then its value becomes undefined. 
-we can set default value of either primitive data types or object data types as appropriate.
-That way, we can avoid meaningless and error prone coding.

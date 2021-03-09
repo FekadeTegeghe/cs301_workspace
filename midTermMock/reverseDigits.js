@@ -1,26 +1,31 @@
 "use strict";
 /**
  * 
- * @param {number} n is number to be reversed.
+ * @param {number} num is number to be reversed.
+ * @returns {number} revised is a number
  */
-function reverseDigits(n){
+function reverseDigits(num){
     let reversed = "";
-    while(n>0){
-        let lastDigit = n%10;
+    while(num>0){
+        let lastDigit = num%10;
         reversed = reversed + lastDigit;
-        n = Math.floor(n/10);
+        num = Math.floor(num/10);
     }
     console.log(reversed); //123 = 1*10^2 + 2*10^1 + 3*10^0
 }
 reverseDigits(234567); 
-
 //version II
-function reverseDigits(n){
+/**
+ * 
+ * @param {number} num is a number
+ * @returns {number} revised is number
+ */
+function reverseDigits(num){
     let reversed = 0;
-    while(n>0){
-        let lastDigit = n%10;
+    while(num>0){
+        let lastDigit = num%10;
         reversed = reversed*10 + lastDigit;
-        n = Math.floor(n/10);
+        num = Math.floor(num/10);
     }
     return reversed; //123 = 1*10^2 + 2*10^1 + 3*10^0
 }
