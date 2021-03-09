@@ -60,13 +60,13 @@ function suffix(str1, str2){
     let common = "";
     for(let i = str1.length - 1; i>=0 ; i--){
         if(str1[i] !== str2[str2.length - 1 - j]){
-            return;
+            return common;
         }else{
             common[j] = common + str1[i];
         }
         j++;
     }
-    return common;   
+   
 }
 let str5 = "I love you";
 let str4 = "I respect you";
@@ -89,30 +89,14 @@ titleCase(word);
 //6. Write a swap function that takes two parameters of number type and swap the values of the passed parameters
 /**
  * 
- * @param {string} str is a string 
- * @returns {string} copy is also a string
- */
- function titleCase(str){
-    let copy = str[0].toUpperCase() + str.substring(1);
-    return copy;
-}
-let text = "awesome";
-titleCase();
-console.log(titleCase(text));
-
-/**
- * 
  * @param {number} par1 is a number
  * @param {number} par2 is a number
  * @returns {number} par is a number
  */
 function swapPar(par1, par2){
     
-        let val = par1;
-        par1 = par2;
-        par2 = val;
-    console.log(`${par1}, ${par2}`);
-  
+        let pars = [par2, par1];
+    return pars;
 }
 let val1 = 5;
 let val2 = 7;
@@ -129,17 +113,17 @@ swapPar(val1, val2);
 function getAverageAge(users){
     let sum = 0;
     let average;
-    for(let user in users){
-        let len = user.length;
-        for(let i = 0; i < len; i++){
-            sum+=user[i];
+        for(let i = 0; i < users.length; i++){
+            sum+=users[i].age;
+            console.log(users[i]);
+            console.log(users[i].name);
         }
-        average = sum/len;
+        average = sum/users.length;
+        return average;
     }
-    return average;
-}
+    
 let users = [{name: "abc", age: 20}, {name: "xyz", age: 10}];
-getAverageAge(users.age);
+console.log(getAverageAge(users));
 
 /*
 1. How can you make a copy of an object?
