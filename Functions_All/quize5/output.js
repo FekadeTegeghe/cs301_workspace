@@ -1,3 +1,4 @@
+"use strict";
 let x = 5;
 function display() {
  let x = 3;

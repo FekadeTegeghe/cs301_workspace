@@ -5,7 +5,7 @@
 
 const assert = require("assert");
 
-const str = require("./strings.js");  //nothing implemented yet 2/16/2021
+const str = require("./strObjAssign.js");  //nothing implemented yet 2/16/2021
 
 /*
 

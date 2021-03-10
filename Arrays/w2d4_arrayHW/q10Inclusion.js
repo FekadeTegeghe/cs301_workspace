@@ -6,7 +6,6 @@
  * @returns {boolean} true is a boolean
  */
 function EnhancedIncludes(arr, value){
-    let returned = [];
     for(let i = 0; i<arr.length; i++){
         if(arr[i] === value){
             return true;

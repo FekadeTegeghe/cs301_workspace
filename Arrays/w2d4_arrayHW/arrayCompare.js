@@ -6,7 +6,7 @@
  * @param {array} secondArray ff
  * @return {boolean} true
  */
-function compareArrays(firstArray, secondArray){
+/**function compareArrays(firstArray, secondArray){
     if(firstArray.length !== secondArray.length){
         return false;
     }else {
@@ -20,4 +20,5 @@ function compareArrays(firstArray, secondArray){
 }
 let arr1 = [1, 2, 3];
 let arr2 = [1, 2, 3];
-console.log(compareArrays(arr1, arr2));
+console.log(compareArrays(arr1, arr2));  */
+

@@ -1,11 +1,14 @@
 "use strict";
+/*
+Write a program that takes comma separated text from user and 
+converts it into an array of words and prints in reverse order.
+*/
 const prompt = require("prompt-sync")();
-let input = prompt("please input a value: ");
-let value = input.toLowerCase;
-while(input !== "stop"){
-    input = prompt("please input a value: ");
- if(input === "stop"){
-    console.log("stop is inputed.");
-   
-}
-}
+let input;
+let lowerCase;
+do{
+    
+    input = prompt("please input some text: ");
+    lowerCase = input.toLocaleLowerCase();
+    console.log(input);
+}while(lowerCase !== "stop");
