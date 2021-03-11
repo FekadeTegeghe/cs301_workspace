@@ -9,19 +9,19 @@ for(let i = 1; i<=10; i++){
     }
 
     // rectangular numbers based on outer loop.
-    for(let k = 1; k<=5; k++){
+    for(let kit = 1; kit<=5; kit++){
         let arr = "";
-        for(let m = 1; m<=5; m++){
-            arr = arr + k;
+        for(let mit = 1; mit<=5; mit++){
+            arr = arr + kit;
         }
         console.log(arr);
     }
 
     // rectangular numbers based on inner loop.
-    for(let s = 1; s<=5; s++){
+    for(let sit = 1; sit<=5; sit++){
         let arr = "";
-        for(let t = 1; t<=5; t++){
-            arr = arr + t;
+        for(let tim = 1; tim<=5; tim++){
+            arr = arr + tim;
         }
         console.log(arr);
     }

@@ -4,7 +4,7 @@
  * @param {number} num is number to be reversed.
  * @returns {number} revised is a number
  */
-function reverseDigits(num){
+/*function reverseDigits(num){
     let reversed = "";
     while(num>0){
         let lastDigit = num%10;
@@ -13,7 +13,7 @@ function reverseDigits(num){
     }
     console.log(reversed); //123 = 1*10^2 + 2*10^1 + 3*10^0
 }
-reverseDigits(234567); 
+reverseDigits(234567);  */
 //version II
 /**
  * 
@@ -29,4 +29,4 @@ function reverseDigits(num){
     }
     return reversed; //123 = 1*10^2 + 2*10^1 + 3*10^0
 }
-console.log(reverseDigits(234567));
+console.log(reverseDigits(234567));  

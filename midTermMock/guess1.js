@@ -1,4 +1,5 @@
 // Guess secret number 5 b/n 1 - 10. If correct at ist guess, awesome, 2nd guess = great ...
+"use strict";
 const prompt = require("prompt-sync")();
 let guessInput =+prompt("Please input your guess between 1 and 10: ");
 let guessCount = 1;
