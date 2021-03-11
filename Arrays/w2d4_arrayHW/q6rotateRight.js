@@ -15,5 +15,5 @@
     
    }
    let arr =[23, 34, 43, 13, 17, 53];
-   rotateNRight(arr, 1);
-   console.log(rotateNRight(arr, 0));
+   //rotateNRight(arr, 1);
+   console.log(rotateNRight(arr, 3));

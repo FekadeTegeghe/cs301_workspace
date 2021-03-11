@@ -24,7 +24,7 @@ console.log(titleCase(word)); */
 let array = [7, 9, 0, -2];
 console.log(first(array, 3)); */
 //2. Write a JavaScript function to get the last element of an array. 
-// Passing a parameter 'n' will return the last 'n' elements of the array.
+// Passing a parameter 'num' will return the last 'num' elements of the array.
 /*let last = function(array, num){
     if(array == null) return void 0;
     if(num == null) return array[0];
@@ -59,7 +59,7 @@ console.log(joining(inputs));  */
   * @param {number} num is a number
   * @returns {boolean} is a number
   */
- function testPrime(num){
+ /*function testPrime(num){
      for(let i = 2; i<num; i++){
          if(num%i ===0){   //becareful for not saying num%2 insteady of num%i
              return false;
@@ -69,7 +69,10 @@ console.log(joining(inputs));  */
 }
 console.log(testPrime(23));
 console.log(testPrime(51));
-console.log(testPrime(53));
+console.log(testPrime(53));  */
+let a = ["1", "1", "2", "3", "3", "1"];
+let unique = a.filter((item, i, ar) => ar.indexOf(item) === i);
+console.log(unique);
 
 
 
