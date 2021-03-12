@@ -1,0 +1,21 @@
+What are the possible ways a HTML document gets its style? List them in ascending
+order of precedence.
+Answer:
+Inline styles — Using the style attribute in the HTML start tag.
+Embedded style — Using the <style> element in the head section of the document.
+External style sheet — Using the <link> element, pointing to an external CSS files.
+
+What is the use of HTML id and class attributes?
+Answer:
+HTML id and class attributes identify an element in an HTML document. 
+This is useful for applying styles and manipulating an element with 
+DOM and JavaScript.
+
+Would it be better to use a class, id or element when?
+• You want to style one paragraph representing your company's mission statement
+• Several list items are important, they should appear in red
+• All h2 headings in the page should be underlined
+
+The class selector uses the HTML class attribute, and is defined with a "." 
+A simple way to look at it is that an id is unique to only one element.
+ class is better to use as it will help you to execute what ever you want.

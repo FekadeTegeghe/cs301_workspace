@@ -1,0 +1,10 @@
+p, h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: darkorchid;
+       }
+       h1{
+        font-size: 20px;
+    }
+    p{
+       background-color: yellow; 
+    }

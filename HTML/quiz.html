@@ -8,10 +8,10 @@
 <script>
 function compute(){
     let userInput = document.getElementById("input").value;  //10, 20, 30
-    let splitted = userInput.split(",");
+    let splitted = userInput.split(",");  //['10', '20', '30']
     let sum = sumFun(splitted);
-    document.getElementById("sum").innerHTML = sum;
-    document.getElementById("average").innerHTML = average;
+    document.getElementById("sum").value = sum;  //it was innerHTML when span
+    document.getElementById("average").value = sum/splitted.length;
    }
    function sumFun(arr){
        let sum = 0;
@@ -28,13 +28,12 @@ function compute(){
     <br/>
     <textarea id="input"></textarea>
         <br/>
-        <!-- <Input type="text">
-            <br/> -->
-        <button onclick="add()">compute</button>
+       
+        <button onclick="compute()">compute</button>
             <br/>
-        sum: <span id="sum"></span>
+        sum: <input type="text" id = "sum">
         <br/>
-        Average: <span id="average"></span>
+        Avg: <input type = "text" id="average">
     
 </body>
 

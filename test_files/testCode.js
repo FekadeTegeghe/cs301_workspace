@@ -211,28 +211,22 @@ console.log(reverse(arr));    */
  * @param {array} arr is an array
  * @returns {array} is an array
  */
-function getUnique(arr){
-  let unique = [];
-  for(let i = 0; i<arr.length; i++){
-    let kkk = 0;
-    for(let j = i+1; j<arr.length; j++){
-      
-      if(arr[i] !== arr[j]){
-        unique[kkk] = arr[i];
-           }
-           else {
-        for(let s = 0; s<unique.length; s++){
-          if(arr[i] != unique[s]){
-            unique[kkk] = arr[i];
-       
-          }
-        }
-      }
-      kkk++;
-    }
+ function getUnique(arr){
+  let unique=[];
+  let kkk = 0;
+  for(let i = 0; i<arr.length-1; i++){
+  for(let sss = 0; sss <= unique.length; sss++){
+  if(arr[i] !== unique[sss]){
+  for(let j = i+1; j<arr.length; j++){
+  if(arr[i] !== arr[j]){
+  unique[kkk] = arr[i];
+  }
+  }
+  }
+  }
+  kkk++;
   }
   return unique;
- 
-}
-let arr = [2, 3, 7, 3, 3, 9, 3, 3];
-console.log(getUnique(arr));
+  }
+  let arr = [2, 3, 7, 3, 3, 9, 3, 3];
+  console.log(getUnique(arr));
