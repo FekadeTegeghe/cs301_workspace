@@ -211,7 +211,7 @@ console.log(reverse(arr));    */
  * @param {array} arr is an array
  * @returns {array} is an array
  */
- function getUnique(arr){
+ /*function getUnique(arr){
   let unique=[];
   let kkk = 0;
   for(let i = 0; i<arr.length-1; i++){
@@ -229,4 +229,41 @@ console.log(reverse(arr));    */
   return unique;
   }
   let arr = [2, 3, 7, 3, 3, 9, 3, 3];
-  console.log(getUnique(arr));
+  console.log(getUnique(arr));   */
+  /**
+   * 
+   * @param {array} arr is an array
+   * @returns {boolean} is boolean
+   */
+   function isSumOfPrimeEven(arr){
+    let sum = 0;
+    let prime;
+    for(let i = 0; i <arr.length; i++){
+      if(arr[i]%(i+2) !== 0){
+        prime = arr[i];
+        sum = sum + prime;
+      }
+    }
+    if(arr.length === 0 || sum%2 !==0 || (!arr.includes(prime))){
+      return false;
+    }else if(sum%2 ===0){
+      return true;
+    }
+  }
+
+  console.log(isSumOfPrimeEven([1, 2, 3, 4, 5]));
+  console.log(isSumOfPrimeEven([]));
+  console.log(isSumOfPrimeEven([1, 6, 4, 8]));
+  console.log(isSumOfPrimeEven([1, 2, 2, 4, 5]));
+
+  // function isSumOfPrimeEven(arrr){
+  //   let primeSum = 0;
+  //   for(let num of arrr){
+  //     if(isSumOfPrimeEven(num)){
+  //       primeSum += num;
+  //     }
+  //   }
+  //   return primeSum%2===0;
+  //     }
+
+  // function isPrime();

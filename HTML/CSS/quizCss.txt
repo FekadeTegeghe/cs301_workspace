@@ -1,6 +1,7 @@
 What are the possible ways a HTML document gets its style? List them in ascending
 order of precedence.
 Answer:
+Default - browser default
 Inline styles — Using the style attribute in the HTML start tag.
 Embedded style — Using the <style> element in the head section of the document.
 External style sheet — Using the <link> element, pointing to an external CSS files.
@@ -9,7 +10,7 @@ What is the use of HTML id and class attributes?
 Answer:
 HTML id and class attributes identify an element in an HTML document. 
 This is useful for applying styles and manipulating an element with 
-DOM and JavaScript.
+DOM and JavaScript. class is group of elements.
 
 Would it be better to use a class, id or element when?
 • You want to style one paragraph representing your company's mission statement
