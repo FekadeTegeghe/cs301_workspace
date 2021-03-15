@@ -1,4 +1,5 @@
-for(let i=0; i>10; i++){
+"use strict";
+for(let i=0; i<10; i++){
     console.log(i);
    }         //0 times but no output as i cannot be 0 for all i >10.
    console.log('--------------');

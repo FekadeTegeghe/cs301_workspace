@@ -19,3 +19,6 @@ or not.
     }
     }
     console.log(testPalindrome("daad"));
+    console.log(testPalindrome("noon"));
+    console.log(testPalindrome("moon"));
+    console.log(testPalindrome("madam"));

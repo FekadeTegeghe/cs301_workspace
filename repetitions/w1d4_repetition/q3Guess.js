@@ -1,3 +1,4 @@
+"use strict";
 const prompt = require("prompt-sync")();
 const PIN = "abc123";
 let userInput = prompt("Password: ");

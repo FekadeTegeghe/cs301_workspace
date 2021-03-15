@@ -1,3 +1,4 @@
+"use strict";
 //Do while
 let k = 0;
 do{

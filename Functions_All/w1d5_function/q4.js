@@ -27,7 +27,7 @@ function computeHCF(num1, num2) {
    */
   let computeGCD = function(value1, value2){
     while(value1) {    
-        var largest = value1;
+        let largest = value1;
         value1 = value1 % value2;
         value2 = largest;
       }

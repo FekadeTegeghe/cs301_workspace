@@ -1,4 +1,11 @@
+"use distinct";
 // The arguments to this function are passed on the left
+/**
+ * 
+ * @param {*} f 
+ * @param  {...any} outerArgs 
+ * @returns 
+ */
 function partialLeft(f, ...outerArgs) {
     return function(...innerArgs) { // Return this function
         let args = [...outerArgs, ...innerArgs]; // Build the argument list

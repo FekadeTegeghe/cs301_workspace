@@ -13,7 +13,7 @@ function reverse(num){
     }
     return Number(reversedDigits);
 }
-console.log(reverse(123));
+//console.log(reverse(123));
 /**
  * 
  * @param {number} num is a number
@@ -27,7 +27,7 @@ function isPrime(num){
     }
     return true;
 }
-console.log(isPrime(7));
+//console.log(isPrime(7));
 /**
  * 
  * @param {number} num is a number
@@ -39,3 +39,6 @@ function isReversedPrime(num){
     return result;
 }
 console.log(isReversedPrime(35));
+console.log(isReversedPrime(7));
+console.log(isReversedPrime(91));
+console.log(isReversedPrime(23));

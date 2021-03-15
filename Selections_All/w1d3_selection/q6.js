@@ -1,3 +1,4 @@
+"use strict";
 const prompt= require("prompt-sync")();
 let s = +prompt("Please enter the number of students: ");
 let t = +prompt("Please input the number of teams you want: ");

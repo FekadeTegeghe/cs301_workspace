@@ -1,3 +1,4 @@
+"use strict";
 const prompt = require("prompt-sync")();
 let input = +prompt("Please input a number: ");
 let factorial = 1;

@@ -1,3 +1,4 @@
+"use strict";
 const prompt = require("prompt-sync")();
 let fibA;
 let fibB;

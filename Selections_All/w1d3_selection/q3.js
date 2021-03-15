@@ -1,3 +1,4 @@
+"use strict";
 const prompt = require("prompt-sync")();
 let downPayment;
 let cost = prompt('Enter cost of the house: ');

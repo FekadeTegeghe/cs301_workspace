@@ -60,7 +60,7 @@ function suffix(str1, str2){
     let common = "";
     for(let i = str1.length - 1; i>=0 ; i--){
         if(str1[i] !== str2[str2.length - 1 - j]){
-            return common;
+            return common.split("").join("");
         }else{
             common[j] = common + str1[i];
         }

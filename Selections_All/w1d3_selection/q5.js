@@ -1,3 +1,4 @@
+"use strict";
 const prompt = require("prompt-sync")();
 let age = +prompt('Enter your age: ');
 let season = prompt('Enter the season: ');

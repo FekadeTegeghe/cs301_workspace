@@ -1,3 +1,4 @@
+"use strict";
 const prompt = require("prompt-sync")();
 let studentName = prompt("what is your name? ");
 let completedCrHr = +prompt("What is the number of credit hour you take? ");

@@ -1,3 +1,4 @@
+"use strict";
 const prompt = require("prompt-sync")();
 let num = prompt("Please input a number: ");
 let sum = 0;

@@ -9,8 +9,8 @@ function isPalendrome(arr){
     for(let item of arr){
         copy.push(item); 
     }
-    for(let i = 0; i<arr.length; i++){
-        if(arr.shift() !== copy.pop()){
+    for(let i = 0; i<arr.length; i++){   //arr.length/2
+        if(arr.shift() !== copy.pop()){    //arr[i] !== arr[arr.length-1-i]
             return false;
         }
     }
