@@ -139,7 +139,6 @@ console.log(computeCharges(arr));
 // }
 // console.log(sumdivisbale( [1, 3, 2, 6, 1, 2] ,3))
 
-("use strict");
 /**
  * @auter   MESAY ERBETO
  * @param {array} array
