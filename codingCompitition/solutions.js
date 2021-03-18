@@ -86,8 +86,8 @@ console.log(computeHeight(1, 4));
 //@BeimnetTesfaye
 /**
  *
- * @param {array} arr
- * @returns {array}
+ * @param {array} arr is an array
+ * @returns {array} is an array
  */
 function computeCharges(arr) {
   let newarr = [];
@@ -114,3 +114,80 @@ let arr = [
   { custId: 2, charges: [20, 60, 50, 30] },
 ];
 console.log(computeCharges(arr));
+
+//Mesay
+// /**
+//  * @auter   MESAY ERBETO
+//  * @param {array} array
+//  * @param {number} k
+//  * @returns {number}
+//  */
+//  function sumdivisbale (array,k){
+//     let count=0
+// for (let i = 0; i < array.length; i++) {
+//     for (let j = 0; j < array.length; j++) {
+//         if((i!==j)&&((array[i]+array[j])%k==0)){
+//             count++
+
+//         }
+
+//     }
+
+// }
+// count=count/2
+// return count;
+// }
+// console.log(sumdivisbale( [1, 3, 2, 6, 1, 2] ,3))
+
+("use strict");
+/**
+ * @auter   MESAY ERBETO
+ * @param {array} array
+ * @param {number} k
+ * @returns {number}
+ */
+function sumdivisbale(array, k) {
+  let count = 0;
+  for (let i = 0; i < array.length; i++) {
+    for (let j = 0; j < array.length; j++) {
+      if (i !== j && (array[i] + array[j]) % k == 0) {
+        count++;
+      }
+    }
+  }
+  count = count / 2;
+  return count;
+}
+console.log(sumdivisbale([1, 3, 2, 6, 1, 2], 3));
+
+// function most(array){
+//     let num=1;
+//      let most=array[0];
+//      let count;
+
+//      //let least=array[0];
+//      let least=100
+//     for (let i = 0; i < array.length; i++) {
+//          count=0;
+//          check=0;
+// for (let j = 0; j < array.length; j++) {
+//     if(array[i]===array[j]&&i!==j){
+//         count++;
+//     }
+//     }
+
+//     if(num<count){
+
+//         most=array[i]
+//         num=count;
+//         check++
+//     }
+//      if(num>count){
+//         check=num
+//      }
+// }
+// num++;
+//     return check;
+// }
+// console.log(most([9,2,3,4,5,7,7,7,7,6,5]))
+// console.log(most([1,1,2,2,3] ))
